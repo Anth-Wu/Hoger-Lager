@@ -1,0 +1,101 @@
+
+
+body {
+    margin: 0px;
+}
+
+.dices{
+    padding: 10px;
+    column-count: 3;
+    column-fill: balance;
+}
+
+.headings{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits{
+    column-count: 5;
+    column-fill: balance;
+}
+
+.text-center{
+    text-align: center;
+    color: white;
+}
+
+.dices-computer-player{
+    column-count: 2;
+}
+
+.dices-player{
+    column-count: 2;
+}
+
+.message{
+    column-count: 3;
+    column-fill: balance;
+}
+
+.message-box{
+    border: 1px solid black;
+}
+
+.controls{
+    padding: 10px;
+    column-count: 4;
+    column-fill: balance;
+}
+
+.dice{
+    font-size: 150pt;
+}
+
+button{
+    width: 100%;
+}
+#youLostDiv {
+    display: none;
+    border: 1px, solid, red;
+}
+
+#youWonDiv {
+    display: none;
+    border: 1px, solid, green;
+}
+
+#rulesDiv {
+    display: none;
+    border: 1px, solid, purple;
+}
+
+.rule-button{
+    width: 60px;
+    top: 0px;
+    position: absolute;
+}
+.player-button{
+    width: 150px;
+}
+.rule-button:hover{
+    background-color: purple;
+}
+button:hover{
+    background-color: purple;
+}
+.ok-button{
+    background-color: blue;
+}
+.hover-text-ok{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 900px;
+    top: 140px;
+}
